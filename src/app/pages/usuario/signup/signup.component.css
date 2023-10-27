@@ -1,0 +1,37 @@
+/* Estilo del contenedor del formulario */
+.form-container {
+    width: 70%; /* Ancho del contenedor */
+    max-width: 70%; /* Ancho máximo */
+    margin: 0 auto; /* Centrar horizontalmente */
+    margin-top: 3em;
+    margin-bottom: 37em;
+    padding: 20px; /* Márgenes internos */
+    background-color: #fff; /* Color de fondo del contenedor */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); /* Sombra de fondo */
+    border-radius: 8px; /* Borde redondeado */
+}
+  
+  /* Estilo de los elementos del formulario (por ejemplo, inputs) */
+.form-container input, 
+.form-container button {
+    width: 100%; /* Ajustar al ancho del contenedor */
+    margin-bottom: 15px; /* Espaciado entre elementos */
+    padding: 10px; /* Márgenes internos de elementos */
+    border: 1px solid #ccc; /* Borde de elementos */
+    border-radius: 4px; /* Borde redondeado de elementos */
+}
+  
+  /* Estilo del botón del formulario */
+.form-container button {
+    background-color: #007bff; /* Color de fondo del botón */
+    color: #fff; /* Color de texto del botón */
+    font-weight: bold; /* Texto en negrita */
+    border: none; /* Sin borde */
+    cursor: pointer; /* Cambiar a un cursor de puntero al pasar el ratón */
+}
+  
+  /* Cambio de estilo al pasar el ratón sobre el botón */
+.form-container button:hover {
+    background-color: #0056b3; /* Cambiar el color de fondo al pasar el ratón */
+}
+  

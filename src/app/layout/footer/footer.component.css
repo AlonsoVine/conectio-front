@@ -1,0 +1,14 @@
+/* footer.component.css */
+.footer {
+    background-color: #333; 
+    color: #fff; /* Color de texto del pie de página */
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+  
